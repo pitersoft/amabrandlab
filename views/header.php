@@ -11,15 +11,14 @@
 
     <title>Website</title>
     <style>
-      
     </style>
   </head>
   <body>
-    <div id="header">
+    <div id="header" style="position: fixed; width: 100%; z-index: 100;">
       <!-- nav class="navbar navbar-light" style="background-color: #e3f2fd;"> -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand me-5 ms-5" href="#">LOGO</a>
+          <a class="navbar-brand me-5 ms-5" href="?p=inicio">LOGO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -43,8 +42,11 @@
             <button type="button" class="btn btn-primary me-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <i class="bi bi-person-circle"></i> Iniciar Sesión
             </button>
-
-            <!-- Modal -->
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -71,7 +73,3 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </nav>
-    </div>

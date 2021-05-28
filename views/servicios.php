@@ -1,26 +1,57 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-    <title>Website</title>
-  </head>
-  <body>
-    <br>
-    <br>
-    <h1>SERVICIOS</h1>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-  
-  </body>
-</html>
+<div style="width: 100%;" class="pt-5 pb-5">
+  <div class="mt-5">
+    <div class="h1 text-center mt-5 mb-5">Nuestros Servicios</div>
+  </div>
+  <div class="container mb-4" style="display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;">
+    <div class="card pt-4" style="width: 18rem;">
+      <img src="../img/foto1.jpg" class="card-img-top rounded-circle ps-5 pe-5" alt="..." style="height: 190px;">
+      <div class="card-body">
+        <h5 class="card-title text-center">Primer Servicio</h5>
+        <br>
+        <a href="?p=contacto" class="btn btn-primary" style="margin-left: 35%;">Solicitar</a>
+      </div>
+    </div>
+    <div class="card pt-4" style="width: 18rem;">
+      <img src="../img/foto2.jpg" class="card-img-top rounded-circle ps-5 pe-5" alt="..." style="height: 190px;">
+      <div class="card-body">
+        <h5 class="card-title text-center">Segundo Servicio</h5>
+        <br>
+        <a href="?p=contacto" class="btn btn-primary" style="margin-left: 35%;">Solicitar</a>
+      </div>
+    </div>
+    <div class="card pt-4" style="width: 18rem;">
+      <img src="../img/foto3.jpg" class="card-img-top rounded-circle ps-5 pe-5" alt="..." style="height: 190px;">
+      <div class="card-body">
+        <h5 class="card-title text-center">Tercer Servicio</h5>
+        <br>
+        <a href="?p=contacto" class="btn btn-primary" style="margin-left: 35%;">Solicitar</a>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;">
+    <div class="card pt-4" style="width: 18rem;">
+      <img src="../img/foto4.jpg" class="card-img-top rounded-circle ps-5 pe-5" alt="..." style="height: 190px;">
+      <div class="card-body">
+        <h5 class="card-title text-center">Cuarto Servicio</h5>
+        <br>
+        <a href="?p=contacto" class="btn btn-primary" style="margin-left: 35%;">Solicitar</a>
+      </div>
+    </div>
+    <div class="card pt-4" style="width: 18rem;">
+      <img src="../img/foto5.jpg" class="card-img-top rounded-circle ps-5 pe-5" alt="..." style="height: 190px;">
+      <div class="card-body">
+        <h5 class="card-title text-center">Quinto Servicio</h5>
+        <br>
+        <a href="?p=contacto" class="btn btn-primary" style="margin-left: 35%;">Solicitar</a>
+      </div>
+    </div>
+    <div class="card pt-4" style="width: 18rem;">
+      <img src="../img/foto6.jpg" class="card-img-top rounded-circle ps-5 pe-5" alt="..." style="height: 190px;">
+      <div class="card-body">
+        <h5 class="card-title text-center">Sexto Servicio</h5>
+        <br>
+        <a href="?p=contacto" class="btn btn-primary" style="margin-left: 35%;">Solicitar</a>
+      </div>
+    </div>
+  </div>
+</div>
