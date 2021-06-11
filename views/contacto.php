@@ -1,5 +1,7 @@
 <div class="pt-5">
-  <form style="width: 360px; margin-left: auto; margin-right: auto;" class="mt-5 mb-5 bg-light pt-5 pb-5 ps-3 pe-3 rounded container">
+  <br>
+  <br>
+  <form class="mt-5 mb-5 bg-v pt-5 pb-5 ps-3 pe-3 form-cont">
     <div class="mb-3">
       <div class="text-center h4">Contactame:</div>
     </div>
@@ -24,17 +26,17 @@
       <label for="Mensaje">Escribe aquí...</label>
     </div>
     <br>
-    <button type="submit" class="btn btn-primary" style="margin-left: 35%;">Enviar</button>
+    <center><button type="submit" class="btn outline-v">Enviar</button></center>
   </form>
   <div class="container">
     <p class="ms-5 me-5">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quae, dolorem nemo facilis neque aspernatur eveniet id praesentium molestias officia culpa voluptate mollitia placeat, deleniti. Quam praesentium fuga eaque cum delectus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae, id architecto nostrum maxime blanditiis libero facilis praesentium similique odio natus fugit obcaecati cupiditate dolor inventore vel rerum delectus at.</p>
     <p style="display: flex;flex-direction: row;justify-content: center;">
-      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <a class="btn bg-v" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         Más información
       </a>
     </p>
     <div class="collapse" id="collapseExample">
-      <div class="card card-body" style="display: flex;flex-direction: row;justify-content: space-around; flex-wrap: wrap;">
+      <div class="card card-body bg-v" style="display: flex;flex-direction: row;justify-content: space-around; flex-wrap: wrap;">
         <!-- Grid container -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ms-4 pt-5">
           <!-- Section: Social media -->

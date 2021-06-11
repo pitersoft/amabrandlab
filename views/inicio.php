@@ -1,18 +1,47 @@
-<div style="width: 100%;" class="pt-5">
+<div style="width: 100%;" class="inicio">
+  <div class="banner">
+    <center><img src="../img/logo-p.png" alt=""></center>
+    <h1>Nombre de Empresa</h1>
+  </div>
+  <div class="caja bg-v">
+    <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro error perferendis ratione, iste officiis, velit molestias quidem quo, ex nostrum iure et omnis tenetur commodi, expedita. Nihil saepe aspernatur praesentium!</p>
+  </div>
+  <div class="caja1">
+      <a href="?p=sobrenosotros" class="content-caja1">
+        <img src="../img/sobre-nosotros.png" alt="">
+        <h2>Sobre Nosotros</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </a>
+      <a href="?p=servicios" class="content-caja1">
+        <img src="../img/servicio.png" alt="">
+        <h2>Servicios</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </a>
+      <a href="?p=contacto" class="content-caja1">
+        <img src="../img/contacto.png" alt="">
+        <h2>¡Contáctanos!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </a>
+    </div>
   <!-- Slider -->
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../img/foto1.jpg" class="d-block w-100" alt="...">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
+    <div class="carousel-inner slider">
+      <div class="carousel-item active bg-v slider-content">
+        <h1>Comentario #01</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quam, iure architecto distinctio cum vero. Doloremque odit tempora officia, ipsam, maxime accusantium delectus quae nemo repellendus culpa dignissimos, optio eveniet.</p>
       </div>
-      <div class="carousel-item">
-        <img src="../img/foto2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-item bg-v slider-content">
+        <h1>Comentario #02</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque a repellendus vel illo quod alias harum consequatur dicta iure perspiciatis iusto, nam vero excepturi, pariatur maxime, quasi labore nobis doloribus.</p>
       </div>
-      <div class="carousel-item">
-        <img src="../img/foto3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-item bg-v slider-content">
+        <h1>Comentario #03</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in non libero, mollitia quibusdam, ex qui voluptatum iste sapiente ut id architecto temporibus quidem ipsam enim error porro rem, natus.</p>
       </div>
-      <div class="carousel-item">
-        <img src="../img/foto4.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-item bg-v slider-content">
+        <h1>Comentario #04</h1>
+        <p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Magni, labore, quisquam. Saepe nostrum, omnis maiores consectetur? Veritatis consectetur, ad error architecto, tempore, aut repudiandae consequatur sunt facere eius suscipit dolor.</p>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -24,80 +53,22 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <br><br><br>
-  <!-- Cards -->
-  <div class="row row-cols-1 row-cols-md-2 g-4 " style="width: 100%; margin-left: 0px;">
-    <div class="col">
-      <div class="card">
-        <img src="../img/foto5.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="../img/foto6.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="../img/foto7.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="../img/foto8.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
+  <div class="caja2">
+    <img src="../img/foto9.jpg" alt="">
   </div>
   <br><br><br>
   <!-- Grid container -->
-  <div class="container p-4 pb-0" style="width: 100%;">
-    <form action="">
-      <!--Grid row-->
-      <div class="row" style="padding-right: 0px; ">
-        <!--Grid column-->
-        <div class="col-auto mb-4 mb-md-0">
-          <p class="pt-2">
-            <strong>Suscríbase a nuestro boletín</strong>
-          </p>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-5 col-12 mb-4 mb-md-0">
-          <!-- Email input -->
-          <div class="form-outline mb-4">
-            <input type="email" id="form5Example2" class="form-control" placeholder="Correo Electrónico" />
-          </div>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-auto mb-4 mb-md-0">
-          <!-- Submit button -->
-          <button type="submit" class="btn btn-primary mb-4">
-            Subscribe
-          </button>
-        </div>
-        <!--Grid column-->
+  <div class="container mb-5" style="width: 100%;">
+    <form class="subscribir" action="post">
+      <p>
+        <strong>Suscríbase a nuestro boletín</strong>
+      </p>
+      <div class="form-outline mb-4 ms-3">
+        <input type="email" id="form5Example2" class="form-control subscribir-input" placeholder="Correo Electrónico" />
       </div>
-      <!--Grid row-->
+      <button type="submit" class="btn bg-v ms-3 mb-4">
+        Subscribirse
+      </button>
     </form>
   </div>
-  <!-- Grid container -->
 </div>
