@@ -1,6 +1,6 @@
 <div style="width: 100%;" class="inicio">
   <div class="banner">
-    <center><img src="../img/logo-p.png" alt=""></center>
+    <center><img src="img/logo-p.png" alt=""></center>
     <h1>Nombre de Empresa</h1>
   </div>
   <div class="caja bg-v">
@@ -9,17 +9,17 @@
   </div>
   <div class="caja1">
       <a href="?p=sobrenosotros" class="content-caja1">
-        <img src="../img/sobre-nosotros.png" alt="">
+        <img src="img/sobre-nosotros.png" alt="">
         <h2>Sobre Nosotros</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </a>
       <a href="?p=servicios" class="content-caja1">
-        <img src="../img/servicio.png" alt="">
+        <img src="img/servicio.png" alt="">
         <h2>Servicios</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </a>
       <a href="?p=contacto" class="content-caja1">
-        <img src="../img/contacto.png" alt="">
+        <img src="img/contacto.png" alt="">
         <h2>¡Contáctanos!</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </a>
@@ -54,7 +54,7 @@
     </button>
   </div>
   <div class="caja2">
-    <img src="../img/foto9.jpg" alt="">
+    <img src="img/foto9.jpg" alt="">
   </div>
   <br><br><br>
   <!-- Grid container -->
